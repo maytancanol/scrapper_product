@@ -30,3 +30,4 @@ Follow these steps to run this project :
 * run command rails db:setup
 * rails s to start server
 * click 'Run Scrapping Product' to scrap the products.
+* refresh the page to see the result while processing.
