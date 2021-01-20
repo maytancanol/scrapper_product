@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# HOW TO RUN : 
+
+Follow these steps to run this project :
+* clone this project from github
+* run command rails db:setup
+* rails s to start server
+* click 'Run Scrapping Product' to scrap the products.
+* refresh the page to see the result while processing.
