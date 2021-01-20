@@ -62,7 +62,7 @@ class ProductsController < ApplicationController
   end
 
   def scrapper
-    scrapper_product = ScrapperProduct.new
+    scrapper_product = ScrapperProduct.new(root: SCRAPER_ROOT_URL)
     scrapper_product.async.run
     redirect_to products_url, notice: 'Product scrapper is running' 
   end

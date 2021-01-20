@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 <%= button_to "Run Scrapping Products", scrapper_products_path if ScrapperProduct.status != 'Running' %>
 <br />
-<%= 'Scrapping is Running wait till completed'  if ScrapperProduct.status == 'Running' %>
+<%= 'Scrapping is <b>Running</b>, please wait till completed'.html_safe  if ScrapperProduct.status == 'Running' %>
 <h1>Products, total <%= Product.count %></h1>
 
 <table>

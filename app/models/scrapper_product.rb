@@ -14,7 +14,7 @@ class ScrapperProduct
 
   def defaults
     {
-      root: 'http://magento-test.finology.com.my',
+      root: 'test',
       handler:  :process_index
     }
   end
