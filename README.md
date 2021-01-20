@@ -28,6 +28,7 @@ Things you may want to cover:
 Follow these steps to run this project :
 * clone this project from github
 * run command rails db:setup
+* GO TO config/initializers/app_site.rb, and change the value for SCRAPER_ROOT_URL to your root site URL.
 * rails s to start server
 * click 'Run Scrapping Product' to scrap the products.
 * refresh the page to see the result while processing.
